@@ -1,0 +1,12 @@
+version: '2'
+services:
+    alphaserver-postgresql:
+        container_name: alphaserver-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/alphaserver/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=alphaserver
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

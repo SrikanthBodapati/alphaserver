@@ -1,0 +1,23 @@
+spring:
+    application:
+        name: alphaserver
+    profiles:
+        # The commented value for `active` can be replaced with valid spring profiles to load.
+        # Otherwise, it will be filled in by maven when building the WAR file
+        # Either way, it can be overridden by `--spring.profiles.active` value passed in the commandline or `-Dspring.profiles.active` set in `JAVA_OPTS`
+        active: dev
+security:
+  oauth2:
+    client:
+      clientId: 935407616882-7s2a4oulmv16ld8oi61cjbjutifk1k0h.apps.googleusercontent.com
+      clientSecret: qnnN8B71mS1OH4sedkhWOSUZ
+      accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+      clientAuthenticationScheme: form
+      scope:
+        - openid
+        - email
+        - profile
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+      preferTokenInfo: true

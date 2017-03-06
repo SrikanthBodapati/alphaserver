@@ -1,0 +1,20 @@
+<div class="panel panel-default"><table>
+  <tbody ng-repeat='m in services'>
+    <tr>
+       <td>
+       <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+           <a href="#/home/monitor/logs"  ng-model=collapse ng-click="collapse=!collapse">{{m}}</a>
+        </h4>
+      </div>
+    </div>
+       </td>
+    </tr>
+    <tr ng-show=collapse>
+      <td> </td>
+      <td>{{ log }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

@@ -1,0 +1,152 @@
+@import "compass/css3";
+
+.installLeft {
+	margin-left: -322px;
+	float: left;
+}
+
+.getStyle {
+	font-weight: bold;
+}
+
+.emailStyle {
+	height: 80px;
+}
+
+.emailStyle input[type="email"] {
+	width: 578px;
+	height: 35px;
+}
+
+.btnStyle {
+	width: 300px;
+	height: 41px;
+	background: #cccccc;
+	margin-top: 30px;
+}
+
+.btnStyle a {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+#footerdiffStyle {
+	margin-left: 400px !important;
+	margin-top: 30px !important;
+}
+
+.ThankyouSTyle {
+	font-size: 20px;
+}
+
+.teamStyle {
+	float: right;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.footerLogoStyle {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+}
+
+.logoStyle {
+	width: 250px !important;
+}
+
+.ui-grid-draggable-row-target {
+	opacity: 0.5 !important;
+}
+
+.ui-grid-draggable-row {
+	height: 30px;
+}
+
+.ui-grid-draggable-row-over {
+	position: relative; &: before { content : "";
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px dotted #AAA;
+}
+
+.ui-grid-vcenter div {
+	background-color: yellow !important;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+&-
+-above:before {
+	top: 0;
+}
+
+&-
+-below:before {
+	bottom: 0;
+}
+
+}
+.grid {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+}
+
+section {
+	margin: 10px;
+}
+
+button {
+	border-radius: 5px;
+	background: #D3D3D3;
+	padding: 0px;
+	width: 100px;
+	height: 37px;
+}
+
+.ui-grid-vcenter div {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+a {
+	color: #00f;
+}
+
+/* button recolor */
+.nav-pills>li.active>a, .btn-primary {
+	background-color: #6C6C6C !important;
+	border-color: #6C6C6C !important;
+	border-radius: 25px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.milan {
+    margin-top: 0px;
+	clear: both;
+	padding: 0 1em;
+}
+
+.active {
+	background-color: #8B8386 !important;
+	display: inline-block;
+	position: relative;
+	color: #F5F5F5 !important;
+}

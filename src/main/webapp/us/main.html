@@ -1,0 +1,9 @@
+<tabset open-on-load ="false">
+        <tab 
+            ng-repeat="t in tabs" 
+            heading="{{t.heading}}"
+            ui-sref="{{t.route}}"
+            ui-sref-active="active">
+        </tab>
+    </tabset>
+    <div ui-view></div>

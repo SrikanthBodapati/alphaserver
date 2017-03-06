@@ -1,0 +1,28 @@
+# ===================================================================
+# Spring Cloud Config bootstrap configuration for the "dev" profile
+# ===================================================================
+
+spring:
+    cloud:
+        config:
+            fail-fast: true
+            uri: http://localhost:8761/config
+            username: admin
+            password: admin
+            # name of the config server's property source (file.yml) that we want to use
+            name: alphaserver
+            profile: dev # profile(s) of the property source
+            label: master # toggle to switch to a different version of the configuration as stored in git
+            # it can be set to any label, branch or commit of the config source git repository
+admin.user.email : infralabs.io@gmail.com
+admin.user.password : infralabs@132
+sendalert:
+       to:
+        - karthik@infralabs.io
+        - dinesh@infralabs.io
+#        - arun@infralabs.io
+#        - roger@infralabs.io
+#        - datt@infralabs.io
+#        - dinesh@infralabs.io
+#        - srikanth@infralabs.io
+#        - aditya@infralabs.io
